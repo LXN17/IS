@@ -1,0 +1,59 @@
+.itemCard {
+  position: relative;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  overflow: hidden;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.heartIcon {
+  user-select: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  color: #ccc;
+  cursor: pointer;
+  transition: all 0.2s;
+  z-index: 10;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &.active {
+    color: #ff4081;
+    fill: #ff4081;
+  }
+}
+
+.itemImg {
+  width: 100%;
+  margin-bottom: 10px;
+
+  img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.itemName {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.itemPrice {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}

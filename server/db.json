@@ -1,0 +1,260 @@
+{
+  "food": [
+    {
+      "id": 101,
+      "name": "Маргарита",
+      "description": "Классическая пицца с томатным соусом, моцареллой и базиликом",
+      "price": 550,
+      "currency": "RUB",
+      "image": "/public/images/margarita.png",
+      "tags": ["вегетарианская", "итальянская", "пицца"]
+    },
+    {
+      "id": 102,
+      "name": "Цезарь с курицей",
+      "description": "Салат‑микс, куриное филе, пармезан, крутоны, соус цезарь",
+      "price": 460,
+      "currency": "RUB",
+      "image": "/public/images/caesar.png",
+      "tags": ["салат", "курица"]
+    },
+    {
+      "id": 103,
+      "name": "Борщ со сметаной",
+      "description": "Традиционный свекольный суп с говядиной и домашней сметаной",
+      "price": 320,
+      "currency": "RUB",
+      "image": "/public/images/borsh.png",
+      "tags": ["суп", "горячее", "русская кухня"]
+    },
+    {
+      "id": 104,
+      "name": "Филадельфия ролл",
+      "description": "Лосось, сливочный сыр, огурец, рис, нори",
+      "price": 690,
+      "currency": "RUB",
+      "image": "/public/images/roll.png",
+      "tags": ["суши", "японская кухня", "рыба"]
+    },
+    {
+      "id": 105,
+      "name": "Бургер «Двойной Чеддер»",
+      "description": "Две говяжьи котлеты, двойной чеддер, бекон, соус BBQ",
+      "price": 780,
+      "currency": "RUB",
+      "image": "/public/images/chedder.png",
+      "tags": ["бургер", "фастфуд", "говядина"]
+    },
+    {
+      "id": 106,
+      "name": "Паста Карбонара",
+      "description": "Спагетти с беконом, яйцом и пармезаном в сливочном соусе",
+      "price": 610,
+      "currency": "RUB",
+      "image": "/public/images/karbonara.png",
+      "tags": ["итальянская", "паста"]
+    },
+    {
+      "id": 107,
+      "name": "Том Ям Кунг",
+      "description": "Острый тайский суп с креветками, кокосовым молоком и лаймом",
+      "price": 540,
+      "currency": "RUB",
+      "image": "/public/images/tom.png",
+      "tags": ["суп", "азиатская кухня", "острое"]
+    },
+    {
+      "id": 108,
+      "name": "Чизкейк Нью‑Йорк",
+      "description": "Нежный сырный десерт на песочной основе с клубничным соусом",
+      "price": 390,
+      "currency": "RUB",
+      "image": "/public/images/newyork.png",
+      "tags": ["десерт", "выпечка", "сырный"]
+    }
+  ],
+  "clothes": [
+    {
+      "id": 201,
+      "name": "Джинсы классические",
+      "description": "Синие джинсы прямого кроя из хлопка с эластаном",
+      "price": 2990,
+      "currency": "RUB",
+      "image": "/public/images/jeans.png",
+      "tags": ["джинсы", "повседневная одежда", "базовый гардероб"]
+    },
+    {
+      "id": 202,
+      "name": "Футболка белая",
+      "description": "Хлопковая футболка базового кроя с круглым вырезом",
+      "price": 990,
+      "currency": "RUB",
+      "image": "/public/images/tshirt.png",
+      "tags": ["футболка", "базовая одежда", "летняя"]
+    },
+    {
+      "id": 203,
+      "name": "Куртка зимняя",
+      "description": "Теплая куртка с пуховым утеплителем и ветрозащитой",
+      "price": 8990,
+      "currency": "RUB",
+      "image": "/public/images/jacket.png",
+      "tags": ["верхняя одежда", "зимняя", "утепленная"]
+    },
+    {
+      "id": 204,
+      "name": "Платье коктейльное",
+      "description": "Элегантное приталенное платье миди длины",
+      "price": 4590,
+      "currency": "RUB",
+      "image": "/public/images/dress.png",
+      "tags": ["платье", "вечерняя одежда", "праздничная"]
+    },
+    {
+      "id": 205,
+      "name": "Свитшот оверсайз",
+      "description": "Удобный свитшот свободного кроя с капюшоном",
+      "price": 2490,
+      "currency": "RUB",
+      "image": "/public/images/switshot.png",
+      "tags": ["свитшот", "повседневная одежда", "уличный стиль"]
+    },
+    {
+      "id": 206,
+      "name": "Костюм классический",
+      "description": "Деловой костюм из шерсти с брюками и пиджаком",
+      "price": 12990,
+      "currency": "RUB",
+      "image": "/public/images/costume.png",
+      "tags": ["костюм", "офисная одежда", "премиум"]
+    },
+    {
+      "id": 207,
+      "name": "Юбка-карандаш",
+      "description": "Приталенная юбка средней длины из костюмной ткани",
+      "price": 1990,
+      "currency": "RUB",
+      "image": "/public/images/skirt.png",
+      "tags": ["юбка", "офисная одежда", "классика"]
+    },
+    {
+      "id": 208,
+      "name": "Футболка поло",
+      "description": "Футболка с воротником на пуговицах из пике",
+      "price": 1590,
+      "currency": "RUB",
+      "image": "/public/images/polo.png",
+      "tags": ["футболка", "спортивный стиль", "кэжуал"]
+    },
+    {
+      "id": 209,
+      "name": "Шорты джинсовые",
+      "description": "Классические джинсовые шорты с потертостями",
+      "price": 1790,
+      "currency": "RUB",
+      "image": "/public/images/shortjeans.png",
+      "tags": ["шорты", "летняя одежда", "деним"]
+    },
+    {
+      "id": 210,
+      "name": "Пальто демисезонное",
+      "description": "Стильное пальто прямого кроя из смесовой шерсти",
+      "price": 7590,
+      "currency": "RUB",
+      "image": "/public/images/palto.png",
+      "tags": ["пальто", "демисезонная одежда", "классика"]
+    }
+  ],
+  "electronics": [
+    {
+      "id": 301,
+      "name": "Смартфон XYZ Pro",
+      "description": "Флагманский смартфон с тройной камерой 108 МП",
+      "price": 89990,
+      "currency": "RUB",
+      "image": "/public/images/phone.png",
+      "tags": ["смартфон", "мобильный", "Android"]
+    },
+    {
+      "id": 302,
+      "name": "Ноутбук UltraBook",
+      "description": "Легкий и мощный ноутбук с SSD 512 ГБ и процессором i7",
+      "price": 74990,
+      "currency": "RUB",
+      "image": "/public/images/laptop.png",
+      "tags": ["ноутбук", "компьютер", "ультрабук"]
+    },
+    {
+      "id": 303,
+      "name": "Наушники Wireless Pro",
+      "description": "Беспроводные наушники с активным шумоподавлением",
+      "price": 12990,
+      "currency": "RUB",
+      "image": "/public/images/headphones.png",
+      "tags": ["аудио", "аксессуары", "Bluetooth"]
+    },
+    {
+      "id": 304,
+      "name": "Умные часы Fitness",
+      "description": "Фитнес-трекер с пульсометром и мониторингом сна",
+      "price": 8990,
+      "currency": "RUB",
+      "image": "/public/images/smartwatch.png",
+      "tags": ["часы", "гаджет", "фитнес"]
+    },
+    {
+      "id": 305,
+      "name": "Планшет MediaPad",
+      "description": "10-дюймовый планшет с 4G и стилусом в комплекте",
+      "price": 32990,
+      "currency": "RUB",
+      "image": "/public/images/tablet.png",
+      "tags": ["планшет", "мультимедиа", "Android"]
+    },
+    {
+      "id": 306,
+      "name": "Фотоаппарат Mirrorless",
+      "description": "Беззеркальная камера с матрицей 24 МП и 4K видео",
+      "price": 65990,
+      "currency": "RUB",
+      "image": "/public/images/camera.png",
+      "tags": ["фотоаппарат", "камера", "профессиональная"]
+    },
+    {
+      "id": 307,
+      "name": "Игровая консоль NextGen",
+      "description": "Новейшая игровая консоль с 1 ТБ памяти и 4K HDR",
+      "price": 49990,
+      "currency": "RUB",
+      "image": "/public/images/console.png",
+      "tags": ["консоль", "игры", "развлечения"]
+    },
+    {
+      "id": 308,
+      "name": "Монитор 27\" 4K",
+      "description": "Монитор с IPS матрицей и частотой 144 Гц",
+      "price": 42990,
+      "currency": "RUB",
+      "image": "/public/images/monitor.png",
+      "tags": ["монитор", "компьютер", "игровой"]
+    },
+    {
+      "id": 309,
+      "name": "Внешний жесткий диск 2 ТБ",
+      "description": "Портативный HDD с USB 3.0 и защитой от ударов",
+      "price": 4990,
+      "currency": "RUB",
+      "image": "/public/images/hdd.png",
+      "tags": ["накопитель", "аксессуары", "хранилище"]
+    },
+    {
+      "id": 310,
+      "name": "Беспроводная колонка",
+      "description": "Портативная колонка с влагозащитой и 20-часовой работой",
+      "price": 7990,
+      "currency": "RUB",
+      "image": "/public/images/speaker.png",
+      "tags": ["аудио", "колонка", "Bluetooth"]
+    }
+  ]
+}
